@@ -1,1 +1,3 @@
-alert("hi hello it's me");
+$("#start").click(function(){
+	console.log("You clicked me")
+})
