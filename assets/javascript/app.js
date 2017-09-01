@@ -142,8 +142,8 @@ var answersArray = [
     
 ];
 var correctArray = [
-    "A. Van Gogh",
-    "A. Mexico"
+    "Van Gogh",
+    "Mexico"
     
 ];
 var correctNum = 0;
