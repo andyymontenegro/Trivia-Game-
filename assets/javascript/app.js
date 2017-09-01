@@ -1,4 +1,4 @@
-$("#startGame").on("click", function(event) {
+ $("#startGame").on("click", function(event) {
     $("#startGame").hide();
     //        $("#counter").html("<h2> </h2>");
     //        $("#trivia").html("<h2>QUESTIONS GO HERE</h2>");
@@ -67,7 +67,7 @@ function correctAnswer() {
         timerCounter + "</span></h2><h3 class='text-center'>Correct! The answer is: " +
         correctArray[counter] + "</h3>";
     $(".gameDiv").html(gameHTML);
-    setTimeout(wait, 2000);
+    setTimeout(wait, 2500);
 }
 
 function wrongAnswer() {
@@ -77,7 +77,7 @@ function wrongAnswer() {
         timerCounter + "</span></h2><h3 class='text-center'>Incorrect! The answer is: " +
         correctArray[counter] + "</h3>";
     $(".gameDiv").html(gameHTML);
-    setTimeout(wait, 2000);
+    setTimeout(wait, 2500);
 }
 
 function questionTimeout() {
@@ -87,7 +87,7 @@ function questionTimeout() {
         timerCounter + "</span></h2><h3 class='text-center'>You ran out of time!</h3>" +
         "<h3>The correct answer is: " + correctArray[counter] + "</h3>";
     $(".gameDiv").html(gameHTML);
-    setTimeout(wait, 2000);
+    setTimeout(wait, 2500);
 }
 
 function endOfGame() {
@@ -142,8 +142,8 @@ var answersArray = [
     
 ];
 var correctArray = [
-    "Van Gogh",
-    "Mexico"
+    "A. Van Gogh",
+    "A. Mexico"
     
 ];
 var correctNum = 0;
